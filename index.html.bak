@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Happy Elements品牌强化</title>
+	
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--图标-->
+    <link rel="stylesheet" href="icon/css/font-awesome.min.css">
+    <style>
+    	body{
+    		background-color:rgb(240,240,240);
+    	}
+    	.number{
+    		color:rgb(153,153,153);
+    		font-size:18px;
+    	}
+    	.list_title{
+    		color:black;
+    		font-size:18px;
+    	}
+    	.list_content{
+    		text-indent:2em;
+    		color:rgb(102,102,102);
+    	}
+    	.logo_t{
+    		font-size:12px;
+    		color:rgb(153,153,153);
+    	}
+    	.div_contents{
+    		background-color:rgb(255,255,255);
+    		display:block;
+    		margin:20px 0 20px 0;
+    	}
+    	.div_center{
+    		margin-bottom:30px;
+    		text-align:center;
+    	}
+    	.div_center button{
+    		font-family:"微软雅黑";
+    		font-size:20px;
+    		color:rgb(95,181,219);
+    		border-color: white;
+    	}
+    	.div_center button:hover,.div_center button:focus{
+    		border-color:white;
+    		background-color:white;
+    		color:rgb(95,181,219);
+    	}
+    	.header{
+    		margin:20px 20px;
+    	}
+    	h2{
+    		font-family:"微软雅黑";
+    		font-size:48px;
+    	}
+    	.list-group-item{
+    		padding: 10px 30px;
+    	}
+    	.item{
+    		font-size:24px;
+    		font-family:"微软雅黑";
+    		color:rgb(0,136,204);
+    	}
+    	.p_class{
+    		font-size:16px;
+    		color:rgb(153,153,153);
+    	}
+    	.had_border{
+    		background-color:rgb(247,247,247);
+    		padding: 30px 30px 10px 30px;
+    		border:1px solid #ddd
+    	}
+    	.div_bg{
+    		margin:0px auto;
+    		padding:20px;
+    		width:285px;
+    		height:112px;
+    	}
+    </style>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<div class="container">
+  		<!--header-->
+  		<div class="header">
+			<img src="img/logo.png" alt="logo" />
+		</div>
+		<!--content-->
+		<div class="panel-group div_contents">				
+			<div class="panel panel-default">
+				<div class="panel-heading" style="background-color:rgb(255,255,255);">
+					<div class="text-center"><h2>Happy Elements品牌强化</h2></div>
+					<div class="text-center"><p class="p_class">乐元素成立以来为世界各地的玩家创造欢乐，我们制定了这些规范，使乐元素品牌形象更具有识别力。</p></div>
+					<hr/>
+						<div class="list-group">
+							<!--part1-->
+							<a class="list-group-item item" data-toggle="collapse" href="#collapseOne">1 标志性设计理念<i id="icon1" class="icon-angle-down icon-large"></i></a>
+							<div id="collapseOne" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<div class="container-fluid">
+										<div class="row-fluid">
+											<div class="col-md-4">
+												<p><span class="number">1-1.</span><span class="list_title"><strong>新旧的比较</strong></span></p>
+												<p class="list_content">
+													标志更新的最大目的之一就是沿袭原有标志的概念，在颜色形状字体方面采用了当下的设计形式重新诠释。加入了企业追求创新和团队的理念“To Make The World Happy”。
+												</p>
+												<br>
+												<img src="img/new_logo.png">
+												<p class="text-center logo_t">新标志</p>
+												<br>
+												<img src="img/old_logo.png">
+												<p class="text-center logo_t">旧标志</p>
+												<br>
+											</div>
+											<div class="col-md-4">
+												<p><span class="number">1-2.</span><span class="list_title"><strong>主题意义</strong></span></p>
+												<p class="list_content">
+													标志主题沿袭原来的风车形象。每片扇叶颜色拥有不同的意义，四篇山野的重叠表明强大的推动力。
+												</p>
+												<p class="list_content">
+													新标志将旧标志的边缘改成了很大的户型，蕴含国际周知的“四叶的三叶草”象征着幸福，并在视觉感受上更具亲和力。
+												</p>
+												<p class="list_content">
+													而且，重叠部分隐含着旧标志的主题，也就是企业在成长过程中最根本的理念和思想是不会改变的。
+												</p>
+												<img src="img/1-2.png">
+											</div>
+											<div class="col-md-4">
+												<p><span class="number">1-3.</span><span class="list_title"><strong>构成和标志类型</strong></span></p>
+												<p class="list_content">
+													标志全体是利用黄金比例（1:1.732）的几何学结构，在此之上调整为更合适的比例。
+												</p>
+												<img src="img/1-3.png">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--part2-->
+							<a class="list-group-item item" data-toggle="collapse" href="#collapseTwo">2 与用途对应的标志变化<i id="icon2" class="icon-angle-down icon-large"></i></a>
+							<div id="collapseTwo" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<div class="container-fluid">
+										<div class="row-fluid">
+											<div class="col-md-4">
+												<p><span class="number">2-1.</span><span class="list_title"><strong>本地化标志</strong></span></p>
+												<p class="list_content">
+													标志设计我们考虑到本地化，把标志的文字部分（Default版和无标语版）做了三种语言：英文版、简体中文版、繁体中文版，<strong>中国大陆地区使用简体中文版标志，港澳台地区使用繁体中文版标志，其他地区和公司内部使用英文版标志。</strong>
+												</p>
+												<div class="had_border">
+													<img src="img/en_logo.png">
+													<p class="text-center logo_t">英文版</p>
+													<img src="img/en_logo2.png">
+													<p class="text-center logo_t">英文无标语版</p>
+													<img src="img/ch_logo.png">
+													<p class="text-center logo_t">简体中文版</p>
+													<img src="img/ch_logo2.png">
+													<p class="text-center logo_t">简体中文无标语版</p>
+													<img src="img/fan_logo.png">
+													<p class="text-center logo_t">繁体中文版</p>
+													<img src="img/fan_logo2.png">
+													<p class="text-center logo_t">繁体中文无标语版</p>
+													<hr>
+													<p class="text-center"><a href="#"><i class="icon-arrow-down"></i>下载.ai文件（768KB）</a></p>
+												</div>
+												<br>
+												<p><span class="number">2-5.</span><span class="list_title"><strong>标志在不同背景中的应用</strong></span></p>
+												<p class="list_content">
+													为便于在广告中推广，更明确地树立企业形象，特制定标志的标准色、辅助色搭配规范，以下列举了不同背景下建议采用不同标志的使用规则。
+												</p>
+												<p class="text-center"><img src="img/2-5.png"></p>
+												<br>
+												<p><span class="number">2-9.</span><span class="list_title"><strong>About Copyright</strong></span></p>
+												<p class="list_content">
+													公司对外显示名称统一使用“乐元素”(其他包括“乐元”、“双鱼”、“乐风”都是在后台注册或者签合同时使用)。
+												</p>
+												<p class="text-center"><img src="img/2-9.png"></p>
+											</div>
+											<div class="col-md-4">
+												<p><span class="number">2-2.</span><span class="list_title"><strong>标志的辅助色</strong></span></p>
+												<p class="list_content">
+													在白色背景上表现“HappyElements”标识效果最好。由于宣传载体的原因不能在白色背景上使用“HappyElements”标志标准色，或难以表现的情况下，亦可用以下颜色:黑、白、灰、金或银。
+												</p>
+												<div class="had_border">
+													<img src="img/en_logo2.png">
+													<p class="text-center logo_t">标准色</p>
+													<img src="img/black_logo.png">
+													<p class="text-center logo_t">黑色（K100）</p>
+													<img src="img/grey_logo.png">
+													<p class="text-center logo_t">灰色（K30）</p>
+													<img src="img/gold_logo.png">
+													<p class="text-center logo_t">金色（PANTONE 872 C）</p>
+													<img src="img/white_logo.png">
+													<p class="text-center logo_t">白色（COMOYOKO）</p>
+													<img src="img/sliver_logo.png">
+													<p class="text-center logo_t">银色（PANTONE 877 C）</p>
+													<hr>
+													<p class="text-center"><a href="#"><i class="icon-arrow-down"></i>下载.ai文件（768KB）</a></p>
+												</div>
+												<br>
+												<p><span class="number">2-6.</span><span class="list_title"><strong>标志在传播媒介禁止使用的形式</strong></span></p>
+												<p class="list_content">
+													以下基本元素的假定表现形式，均纳入禁止的范围。
+												</p>
+												<p class="list_content">
+													 1.标志不允许做勾边处理
+												</p>
+												<p class="list_content">
+													 2.标志标准组合不允许改动
+												</p>
+												<p class="list_content">
+													 3.标志标准组合不允许变动位置
+												</p>
+												<p class="list_content">
+													 4.标志在绿背景不做单色黑处理
+												</p>
+												<p class="list_content">
+													 5.标志不允许在缺乏对比度照片中以白色显示
+												</p>
+												<p class="list_content">
+													 6.标志不允许出现规定以外的颜色
+												</p>
+												<p class="list_content">
+													 7.在深色背景里标志不允许阶段以标准色形式出现
+												</p>
+												<p class="list_content">
+													 8.不允许出现不完整标志
+												</p>
+												<p class="list_content">
+													 9.标志标准组合不允许改成竖排版
+												</p>
+										 		<p class="list_content">
+													 10.标志标准组合不允许更改
+												</p>
+												<p class="list_content">
+													 11.文字组合不能单独使用
+												</p>
+												<p class="list_content">
+													 12.标志标准组合不允许变形、灰、金或银。
+												</p>
+												<p class="text-center"><img src="img/2-6.png"></p>
+											</div>
+											<div class="col-md-4">
+												<p><span class="number">2-3.</span><span class="list_title"><strong>黑白标志</strong></span></p>
+												<p class="list_content">
+													标志可以用阴阳两种形式表现。阴阳两种图形同时又可以用有色系统和无色系统来表现。此页所示为黑白阴阳制图，使用范围主要应用于报纸广告等单色（黑白）印刷范围内，使用时请严格按此规范进行。
+												</p>
+												<br>
+												<p class="text-center"><img src="img/black_white.png"></p>
+												<br>
+												<p><span class="number">2-4.</span><span class="list_title"><strong>标志在色彩环境中的应用</strong></span></p>
+												<p class="list_content">
+													标志的标准色、辅助色搭配在深色系及浅色系色彩背景下的使用规则;实际应用时请参照使用。
+												</p>
+												<br>
+												<div style="text-align:center;margin:5px;"><div class="div_bg" style="background-color:white;"><img src="img/en_logo2.png"></div></div>
+												<p class="text-center logo_t">白色背景</p>
+												<div style="text-align:center;margin:5px;"><div class="div_bg" style="background-color:rgb(237,238,238);"><img src="img/en_logo2.png"></div></div>
+												<p class="text-center logo_t">浅灰背景</p>
+												<div style="text-align:center;margin:5px;"><div class="div_bg" style="background-color:rgb(162,138,61);"><img src="img/w_logo.png"></div></div>
+												<p class="text-center logo_t">金色背景</p>
+												<div style="text-align:center;margin:5px;"><div class="div_bg" style="background-color:rgb(150,148,148);"><img src="img/w_logo.png"></div></div>
+												<p class="text-center logo_t">银色背景</p>
+												<div style="text-align:center;margin:5px;"><div class="div_bg" style="background-color:black;"><img src="img/en_logo2.png"></div></div>
+												<p class="text-center logo_t">黑色背景</p>
+												<br>
+												<p><span class="number">2-7.</span><span class="list_title"><strong>最小应用比例</strong></span></p>
+												<p class="list_content">
+													最小运用比例 (请使用无标语版标志), 当标志缩小至宽为20mm以下时，将有损于标志的识别性，故不可使用。
+												</p>
+												<p class="text-center"><img src="img/en_logo2.png"></p>
+												<p class="text-center"><img src="img/rule.png"></p>
+												<p class="text-center logo_t">20mm</p>
+												<br>
+												<p><span class="number">2-8.</span><span class="list_title"><strong>不可侵入区域</strong></span></p>
+												<p class="list_content">
+													标志应与其它因素分离以突出标识自身的特性。在复杂背景下须在标志周围留有空间，具体可参见图示中的比例，按照实际情况作适当调整。
+												</p>
+												<p class="text-center"><img src="img/2-8.png"></p>
+												<br>
+												<p><span class="number">2-10.</span><span class="list_title"><strong>Use-Page下载</strong></span></p>
+												<p class="list_content">
+													Use-page页面必须用正规标志，禁止任何形式的改动。
+												</p>
+												<p class="text-center"><img src="img/2-10.png"></p>
+												<p class="text-center"><a href="#"><i class="icon-arrow-down"></i>下载.jpg文件（1.93 MB）</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--part3-->
+							<a class="list-group-item item" data-toggle="collapse" href="#collapseThree">3 企业色彩<i id="icon3" class="icon-angle-down icon-large"></i></a>
+							<div id="collapseThree" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<div class="container-fluid">
+										<div class="row-fluid">
+											<div class="col-md-4">
+												<p><span class="number">3-1.</span><span class="list_title"><strong>乐元素的基本色</strong></span></p>
+												<p class="list_content">
+													品牌强化后以前的四色展开是乐元素的基本色的构成的。
+												</p>
+												<p class="list_content">
+													四色这次又拥有了“诚实”“热情”“欢乐”“成长”的意义。
+												</p>
+												<p class="text-center"><img src="img/3-1.png"></p>
+											</div>
+											<div class="col-md-4">
+												<p><span class="number">3-2.</span><span class="list_title"><strong>乐元素的基础色</strong></span></p>
+												<p class="list_content">
+													“蓝色”是企业的基础色。
+												</p>
+												<p class="list_content">
+													蓝色象征“诚实” ，既有用户和关联企业之间的诚实，也有同事之间的坦诚。
+												</p>
+												<br>
+												<p class="text-center"><img src="img/3-2.png"></p>
+											</div>
+											<div class="col-md-4">
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a class="list-group-item item" data-toggle="collapse" href="#collapseFour">4 企业字体<i id="icon4" class="icon-angle-down icon-large"></i></a>
+							<div id="collapseFour" class="panel-collapse collapse in">
+								<h1>暂留位置</h1>
+							</div>
+						</div>
+				</div>
+				<div class="div_center">
+					<button type="button" class="btn btn-default" id="display_all">展开全部<i class="icon-angle-down"></i></button>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div class="div_center">
+			<p>@2009-2014 Happy Element 乐元素</p>
+		</div>
+	</div>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    	$(function () {
+    		$('#collapseOne').collapse('hide');
+    		$('#collapseTwo').collapse('hide');
+    		$('#collapseThree').collapse('hide');
+    		$('#collapseFour').collapse('hide');
+    		var one_status=0;
+    		var two_status=0;
+    		var three_status=0;
+    		var four_status=0;
+    		btn();
+    		$('#collapseOne').on('show.bs.collapse', function(){
+    			$('#icon1').removeClass().addClass("icon-angle-up icon-large");
+    			one_status=1;
+    			btn();
+    		});
+    		$('#collapseOne').on('hide.bs.collapse', function(){
+    			$('#icon1').removeClass().addClass("icon-angle-down icon-large");
+    			one_status=0;
+    			btn();
+    		});
+    		$('#collapseTwo').on('shown.bs.collapse', function(){
+    			$('#icon2').removeClass().addClass("icon-angle-up icon-large");
+    			two_status=1;
+    			btn();
+    		});
+    		$('#collapseTwo').on('hide.bs.collapse', function(){
+    			$('#icon2').removeClass().addClass("icon-angle-down icon-large");
+    			two_status=0;
+    			btn();
+    		});
+    		$('#collapseThree').on('shown.bs.collapse', function(){
+    			$('#icon3').removeClass().addClass("icon-angle-up icon-large");
+    			three_status=1;
+    			btn();
+    		});
+    		$('#collapseThree').on('hide.bs.collapse', function(){
+    			$('#icon3').removeClass().addClass("icon-angle-down icon-large");
+    			three_status=0;
+    			btn();
+    		});
+    		$('#collapseFour').on('shown.bs.collapse', function(){
+    			$('#icon4').removeClass().addClass("icon-angle-up icon-large");
+    			four_status=1;
+    			btn();
+    		});
+    		$('#collapseFour').on('hide.bs.collapse', function(){
+    			$('#icon4').removeClass().addClass("icon-angle-down icon-large");
+    			four_status=0;
+    			btn();
+    		});
+    		function btn(){
+    			if(one_status==1&&two_status==1&&three_status==1&&four_status==1){
+    			$('#display_all').html('隐藏全部<i class="icon-angle-up"></i>');
+    			$('#display_all').click(function(){
+		    		$('#collapseOne').collapse('hide');
+		    		$('#collapseTwo').collapse('hide');
+		    		$('#collapseThree').collapse('hide');
+		    		$('#collapseFour').collapse('hide');
+	    		});
+				}else if(one_status==0&&two_status==0&&three_status==0&&four_status==0){
+					$('#display_all').html('显示全部<i class="icon-angle-down"></i>');
+	    			$('#display_all').click(function(){
+			    		$('#collapseOne').collapse('show');
+			    		$('#collapseTwo').collapse('show');
+			    		$('#collapseThree').collapse('show');
+			    		$('#collapseFour').collapse('show');
+		    		});
+				}else return false;
+    		}
+    	});
+    </script>
+  </body>
+</html>
